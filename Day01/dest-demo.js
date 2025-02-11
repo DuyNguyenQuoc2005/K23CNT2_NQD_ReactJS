@@ -13,8 +13,8 @@ console.log("c=",c);
 
 // object
 const person = {
-    name: "Chung Trinhj",
-    age: 25,
+    name: "Quoc Duy",
+    age: 20,
     city: "New York"
 };
 
