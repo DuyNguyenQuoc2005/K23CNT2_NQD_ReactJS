@@ -11,7 +11,7 @@ class NqdApp extends Component {
         <hr/>
         <NqdLoginControl />
         <NqdRenderList />
-        <NqdRenderListStudent />
+        <NqdRenderListStudent />  
       </div>
     )
   }
