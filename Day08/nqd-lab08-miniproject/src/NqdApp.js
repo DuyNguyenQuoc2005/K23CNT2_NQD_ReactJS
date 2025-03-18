@@ -40,7 +40,7 @@ class NqdApp extends Component {
     }
   }
   nqdHandleView = (nqdStudent)=>{
-    this.setState({
+    this.setState({ 
       nqdStudent:nqdStudent,
     })
   }
