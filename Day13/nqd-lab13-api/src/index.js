@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import NqdApp from './NqdApp';
 
-const nqdRoot = ReactDOM.createRoot(document.getElementById('nqdRoot'));
-nqdRoot.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <NqdApp />
+    <App />
   </React.StrictMode>
 );
 

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Route, BrowserRouter as Router,Routes } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import NqdNavNar from './components/NqdNavNar'
 import NqdHome from './components/NqdHome'
 import NqdAbout from './components/NqdAbout'
