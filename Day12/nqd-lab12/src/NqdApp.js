@@ -10,7 +10,7 @@ export default function NqdApp() {
   const listUser = [
     { id: "001", nqdFullName: 'Nguyễn Quốc Duy', nqdUserName: "YUD", nqdPass: "123455" },
     { id: "002", nqdFullName: 'Dương Ngọc Nhi', nqdUserName: "Nhyy", nqdPass: "098765" },
-    { id: "003", nqdFullName: 'Trần Trí Tài', nqdUserName: "Toài", nqdPass: "567812" },
+    { id: "003", nqdFullName: 'Trần Trí Tàii', nqdUserName: "Toài", nqdPass: "567812" },
   ]
 
   const [nqdUsers, setNqdUsers] = useState(listUser)
