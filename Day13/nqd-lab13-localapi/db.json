@@ -1,0 +1,25 @@
+{
+    "users":[
+        {
+            "FullName": "Nguyễn Quốc Duy",
+            "Age": 20,
+            "Class": "K23CNT2"
+        },
+        {
+            "FullName": "Nguyễn Minh Ngọc",
+            "Age": 20,
+            "Class": "K23CNT2"
+        },
+        {
+            "FullName": "Nguyễn Quốc Đạt",
+            "Age": 20,
+            "Class": "K23CNT2"
+        }
+    ],
+    "students":[
+        {
+            "studentId":"SV001",
+            "studentName":"Nguyễn Quốc Duy"
+        }
+    ]
+}

@@ -33,7 +33,7 @@ export default function NqdApp() {
         <Routes>
           <Route path='/' element={<NqdHome />} />
           <Route path='/about' element={<NqdAbout />} />
-          <Route path='/contact' element={<NqdContact />} />
+          <Route path='/contact' element={<NqdContact />} /> 
           <Route path='/list-user' element={<NqdListUser renderNqdUsers={nqdUsers} />} />
           <Route path='/create-user' element={<NqdFormUser onNqdAddNew={nqdHandleAdd} />} />
         </Routes>

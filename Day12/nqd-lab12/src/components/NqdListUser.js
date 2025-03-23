@@ -4,15 +4,16 @@ export default function NqdListUser({renderNqdUsers}) {
 
     const nqdElements = renderNqdUsers.map((nqdItem, index) => {
         return (
-        <>
+            <>
         <tr key={index}>
             <td>{index+1}</td>
             <td>{nqdItem.id}</td>
             <td>{nqdItem.nqdFullName}</td>
             <td>{nqdItem.nqdUserName}</td>
-            <td>{nqdItem.nqdPassword}</td>
+            <td>{nqdItem.nqdPass}</td>
         </tr>
-        </>)
+        </>
+    )
     })
 
   return (
